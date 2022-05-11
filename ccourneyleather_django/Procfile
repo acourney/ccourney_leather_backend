@@ -1,0 +1,1 @@
+web: gunicorn ccourneyleather_django.wsgi
