@@ -11,6 +11,9 @@ dj-database-url = "*"
 gunicorn = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
+pillow = "*"
+boto3 = "*"
+djoser = "*"
 
 [dev-packages]
 

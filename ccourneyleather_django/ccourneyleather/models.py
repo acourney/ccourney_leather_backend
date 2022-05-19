@@ -6,6 +6,7 @@ class Item(models.Model):
     description = models.TextField()
     price = models.IntegerField()
     inventory = models.IntegerField()
+    photo = models.ImageField(upload_to='images/', default='images/default.jpg')
 
     def __str__(self):
         return self.name
